@@ -7,7 +7,7 @@ public class Teste {
 		Peca p = new Peca();
 		p.setNuminterno("44232");
 		p.setPreco(33);
-		p.setQtdeentrada(20);
+		p.setQtdeatual(20);
 		p.setQtdesaida(2);
 		p.setUpc("22345");
 		

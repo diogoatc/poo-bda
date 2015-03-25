@@ -4,10 +4,17 @@ public class Peca {
 	private String upc;
 	private double preco;
 	private int qtdesaida;
-	private int qtdeentrada;
+	private int qtdeatual;
 	private String numinterno;
 	private Descricaopeca desc;
+	private Pedido pedido;
 	
+	public Pedido getPedido() {
+		return pedido;
+	}
+	public void setPedido(Pedido pedido) {
+		this.pedido = pedido;
+	}
 	public Descricaopeca getDesc() {
 		return desc;
 	}
@@ -32,11 +39,11 @@ public class Peca {
 	public void setQtdesaida(int qtdesaida) {
 		this.qtdesaida = qtdesaida;
 	}
-	public int getQtdeentrada() {
-		return qtdeentrada;
+	public int getQtdeatual() {
+		return qtdeatual;
 	}
-	public void setQtdeentrada(int qtdeentrada) {
-		this.qtdeentrada = qtdeentrada;
+	public void setQtdeatual(int qtdeatual) {
+		this.qtdeatual = qtdeatual;
 	}
 	public String getNuminterno() {
 		return numinterno;
@@ -45,5 +52,10 @@ public class Peca {
 		this.numinterno = numinterno;
 	}
 	
+	
+	
+	
+	}
+	
 
-}
+
