@@ -5,7 +5,6 @@ public class Codinterno {
 	private int upc;
 	private int receptaculo;
 	private int corredor;
-	int abc;
 	
 	public int getUpc() {
 		return upc;
